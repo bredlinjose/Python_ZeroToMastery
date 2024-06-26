@@ -4,34 +4,268 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007b56d5-66a4-44e3-97e6-85ea2528d703" name="Changes" comment="my first commit" />
+    <list default="true" id="007b56d5-66a4-44e3-97e6-85ea2528d703" name="Changes" comment="my first commit">
+      <change afterPath="$PROJECT_DIR$/basic/escape_sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/formatted_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datatypes/collection/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datatypes/complex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datatypes/numeric.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datatypes/string_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loops&amp;conditions/for_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loops&amp;conditions/range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operators/arithmetic_operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operators/assignment_operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operators/logical_operator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operators/membership_operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ZeroToMastery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ZeroToMastery.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs/Program_Weight.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/weight_conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs/SumOfNum.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/sum_of_two_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs/password_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/password_checker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programs/print_even_nuber_and_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/print_even_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/If_Statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/loops&amp;conditions/if_statement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/List.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/List_Method.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/collection/list_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/Math.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/Operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/operators/comparison_operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/StringPractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/collection/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/dictionary_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/collection/dictionary_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/escape_sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/formatted_string.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/list_slicing.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/collection/list_slicing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/list_unpacking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/collection/list_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/set.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/collection/set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/set_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/collection/set_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/string_immutable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/string_index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic/tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/collection/tuples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic_2/loop1.py" beforeDir="false" afterPath="$PROJECT_DIR$/loops&amp;conditions/while_loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic_2/loop2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic_2/loop3.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/pass_or_fail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic_2/loop4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic_2/range.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic_2/ternary_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/operators/ternary_operator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Basic_2/truthy_falsy.py" beforeDir="false" afterPath="$PROJECT_DIR$/datatypes/boolean.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bredlinjose&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bredlinjose/ZeroToMastery.git&quot;,
+    &quot;accountId&quot;: &quot;59e4ea41-77cf-4f5c-a174-e9607aed92f2&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hdU07MGFXNPiGUR3LCx9PxiMjn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.List.executor": "Run",
+    "Python.List_Method.executor": "Run",
+    "Python.Math.executor": "Run",
+    "Python.Operator.executor": "Run",
+    "Python.Program_Weight.executor": "Run",
+    "Python.StringPractice.executor": "Run",
+    "Python.assignment_operator.executor": "Run",
+    "Python.complex.executor": "Run",
+    "Python.dictionary.executor": "Run",
+    "Python.dictionary_method.executor": "Run",
+    "Python.escape_sequence.executor": "Run",
+    "Python.for_loop.executor": "Run",
+    "Python.formatted_string (1).executor": "Run",
+    "Python.formatted_string.executor": "Run",
+    "Python.list_slicing.executor": "Run",
+    "Python.loop1.executor": "Run",
+    "Python.loop3.executor": "Run",
+    "Python.loop4.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.membership_operator.executor": "Run",
+    "Python.numeric.executor": "Run",
+    "Python.password_checker.executor": "Run",
+    "Python.print_even_nuber_and_count.executor": "Run",
+    "Python.print_even_number (1).executor": "Run",
+    "Python.range.executor": "Run",
+    "Python.string_immutable.executor": "Run",
+    "Python.string_index.executor": "Run",
+    "Python.ternary_operator.executor": "Run",
+    "Python.truthy_falsy.executor": "Run",
+    "Python.tuples.executor": "Run",
+    "Python.while_loop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\datatypes" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\datatypes\collection" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\basic" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\loops&amp;conditions" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\programs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.dictionary">
+    <configuration name="complex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZeroToMastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datatypes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datatypes/complex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZeroToMastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datatypes/collection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datatypes/collection/dictionary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="membership_operator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZeroToMastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/operators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/operators/membership_operator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="numeric" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZeroToMastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datatypes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datatypes/numeric.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="range" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZeroToMastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loops_&amp;_conditions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loops_&amp;_conditions/range.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dictionary" />
+        <item itemvalue="Python.complex" />
+        <item itemvalue="Python.numeric" />
+        <item itemvalue="Python.range" />
+        <item itemvalue="Python.membership_operator" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -54,6 +288,19 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cfg" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my first commit" />
