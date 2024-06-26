@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007b56d5-66a4-44e3-97e6-85ea2528d703" name="Changes" comment="my first commit" />
+    <list default="true" id="007b56d5-66a4-44e3-97e6-85ea2528d703" name="Changes" comment="my first commit">
+      <change beforePath="$PROJECT_DIR$/basic/escape_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/escape_sequence.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
