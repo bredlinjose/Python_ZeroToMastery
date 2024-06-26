@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007b56d5-66a4-44e3-97e6-85ea2528d703" name="Changes" comment="my first commit">
-      <change beforePath="$PROJECT_DIR$/basic/escape_sequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic/escape_sequence.py" afterDir="false" />
+    <list default="true" id="007b56d5-66a4-44e3-97e6-85ea2528d703" name="Changes" comment="python basic">
+      <change afterPath="$PROJECT_DIR$/exercise/check_duplicate_in_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/magician.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/tricky_counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/parameters_and_arguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loops&amp;conditions/enumerate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loops&amp;conditions/loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops&amp;conditions/range.py" beforeDir="false" afterPath="$PROJECT_DIR$/loops&amp;conditions/range.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops&amp;conditions/while_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/loops&amp;conditions/while_loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/pass_or_fail.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/pass_or_fail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/password_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/password_checker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/print_even_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/print_even_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/sum_of_two_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/sum_of_two_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/weight_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/weight_conversion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,57 +63,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python.List.executor&quot;: &quot;Run&quot;,
-    &quot;Python.List_Method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Math.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Operator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Program_Weight.executor&quot;: &quot;Run&quot;,
-    &quot;Python.StringPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.assignment_operator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.complex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dictionary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dictionary_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.escape_sequence.executor&quot;: &quot;Run&quot;,
-    &quot;Python.for_loop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.formatted_string (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.formatted_string.executor&quot;: &quot;Run&quot;,
-    &quot;Python.list_slicing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loop1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loop3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loop4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.membership_operator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.numeric.executor&quot;: &quot;Run&quot;,
-    &quot;Python.password_checker.executor&quot;: &quot;Run&quot;,
-    &quot;Python.print_even_nuber_and_count.executor&quot;: &quot;Run&quot;,
-    &quot;Python.print_even_number (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.range.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_immutable.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_index.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ternary_operator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.truthy_falsy.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tuples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.while_loop.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.List.executor": "Run",
+    "Python.List_Method.executor": "Run",
+    "Python.Math.executor": "Run",
+    "Python.Operator.executor": "Run",
+    "Python.Program_Weight.executor": "Run",
+    "Python.StringPractice.executor": "Run",
+    "Python.assignment_operator.executor": "Run",
+    "Python.check_duplicate_in_list.executor": "Run",
+    "Python.complex.executor": "Run",
+    "Python.dictionary.executor": "Run",
+    "Python.dictionary_method.executor": "Run",
+    "Python.enumerate.executor": "Run",
+    "Python.escape_sequence.executor": "Run",
+    "Python.for_loop.executor": "Run",
+    "Python.formatted_string (1).executor": "Run",
+    "Python.formatted_string.executor": "Run",
+    "Python.function.executor": "Run",
+    "Python.gui.executor": "Run",
+    "Python.list_slicing.executor": "Run",
+    "Python.loop1.executor": "Run",
+    "Python.loop3.executor": "Run",
+    "Python.loop4.executor": "Run",
+    "Python.loops.executor": "Run",
+    "Python.magician.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.membership_operator.executor": "Run",
+    "Python.numeric.executor": "Run",
+    "Python.parameters_and_arguments.executor": "Run",
+    "Python.password_checker.executor": "Run",
+    "Python.print_even_nuber_and_count.executor": "Run",
+    "Python.print_even_number (1).executor": "Run",
+    "Python.range.executor": "Run",
+    "Python.string_immutable.executor": "Run",
+    "Python.string_index.executor": "Run",
+    "Python.ternary_operator.executor": "Run",
+    "Python.tricky_counter.executor": "Run",
+    "Python.truthy_falsy.executor": "Run",
+    "Python.tuples.executor": "Run",
+    "Python.while_loop.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Python Workspace\ZeroToMastery\functions" />
       <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\datatypes" />
       <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\datatypes\collection" />
       <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\basic" />
       <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\loops&amp;conditions" />
-      <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\programs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.escape_sequence">
-    <configuration name="complex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.parameters_and_arguments">
+    <configuration name="check_duplicate_in_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZeroToMastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datatypes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datatypes/complex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise/check_duplicate_in_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,29 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ZeroToMastery" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datatypes/collection" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datatypes/collection/dictionary.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="escape_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZeroToMastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,7 +156,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/escape_sequence.py" />
+      <option name="SCRIPT_NAME" value="D:\Workspace\Python Workspace\ZeroToMastery\functions\function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,7 +165,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="numeric" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZeroToMastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,11 +174,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datatypes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datatypes/numeric.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise/gui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +187,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="range" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="loops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZeroToMastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,11 +196,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loops_&amp;_conditions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/loops&amp;conditions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loops_&amp;_conditions/range.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/loops&amp;conditions/loops.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parameters_and_arguments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZeroToMastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/parameters_and_arguments.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.escape_sequence" />
-        <item itemvalue="Python.dictionary" />
-        <item itemvalue="Python.complex" />
-        <item itemvalue="Python.numeric" />
-        <item itemvalue="Python.range" />
+        <item itemvalue="Python.parameters_and_arguments" />
+        <item itemvalue="Python.function" />
+        <item itemvalue="Python.check_duplicate_in_list" />
+        <item itemvalue="Python.gui" />
+        <item itemvalue="Python.loops" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717923626925</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="python basic">
+      <option name="closed" value="true" />
+      <created>1719418101861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719418101861</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -260,6 +291,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="my first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="my first commit" />
+    <MESSAGE value="python basic" />
+    <option name="LAST_COMMIT_MESSAGE" value="python basic" />
   </component>
 </project>

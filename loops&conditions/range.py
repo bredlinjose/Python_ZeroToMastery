@@ -15,3 +15,10 @@ for num in num2:
 
 for num in range(3, 15, 3):
     print(num)
+
+for a in range(10, 0, -1):
+    print(a, end=' ')
+print()
+
+print(list(range(10)))
+
