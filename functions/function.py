@@ -29,3 +29,13 @@ def show_tree():
 
 show_tree()
 print(show_tree)  # <function show_tree at 0x000001A9E65D4AE0>  # location in memory
+
+
+# empty function
+# def fun():  # Incorrect empty function  # IndentationError
+def fun():
+    pass
+
+
+fun()  # won't do anything
+

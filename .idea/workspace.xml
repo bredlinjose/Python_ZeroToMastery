@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="007b56d5-66a4-44e3-97e6-85ea2528d703" name="Changes" comment="python basic" />
+    <list default="true" id="007b56d5-66a4-44e3-97e6-85ea2528d703" name="Changes" comment="python basic">
+      <change afterPath="$PROJECT_DIR$/basic/arguments_keywordarguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/docstrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/highest_even_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/prime_number_checker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/nested_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/return.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loops&amp;conditions/for_else_loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/function.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,19 +65,23 @@
     "Python.Operator.executor": "Run",
     "Python.Program_Weight.executor": "Run",
     "Python.StringPractice.executor": "Run",
+    "Python.arguments_keywordarguments.executor": "Run",
     "Python.assignment_operator.executor": "Run",
     "Python.check_duplicate_in_list.executor": "Run",
     "Python.complex.executor": "Run",
     "Python.dictionary.executor": "Run",
     "Python.dictionary_method.executor": "Run",
+    "Python.docstrings.executor": "Run",
     "Python.enumerate.executor": "Run",
     "Python.escape_sequence.executor": "Run",
+    "Python.for_else_loop.executor": "Run",
     "Python.for_loop.executor": "Run",
     "Python.formatted_string (1).executor": "Run",
     "Python.formatted_string.executor": "Run",
     "Python.function (1).executor": "Run",
     "Python.function.executor": "Run",
     "Python.gui.executor": "Run",
+    "Python.highest_even_number.executor": "Run",
     "Python.list_slicing.executor": "Run",
     "Python.loop1.executor": "Run",
     "Python.loop3.executor": "Run",
@@ -76,12 +90,15 @@
     "Python.magician.executor": "Run",
     "Python.main.executor": "Run",
     "Python.membership_operator.executor": "Run",
+    "Python.nested_function.executor": "Run",
     "Python.numeric.executor": "Run",
     "Python.parameters_and_arguments.executor": "Run",
     "Python.password_checker.executor": "Run",
+    "Python.prime_number_checker.executor": "Run",
     "Python.print_even_nuber_and_count.executor": "Run",
     "Python.print_even_number (1).executor": "Run",
     "Python.range.executor": "Run",
+    "Python.return.executor": "Run",
     "Python.string_immutable.executor": "Run",
     "Python.string_index.executor": "Run",
     "Python.ternary_operator.executor": "Run",
@@ -104,52 +121,8 @@
       <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\loops&amp;conditions" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.function (1)">
-    <configuration name="check_duplicate_in_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ZeroToMastery" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise/check_duplicate_in_list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="function (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ZeroToMastery" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.highest_even_number">
+    <configuration name="arguments_keywordarguments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZeroToMastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Workspace\Python Workspace\ZeroToMastery\functions\function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/arguments_keywordarguments.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +144,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="docstrings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZeroToMastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/docstrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="highest_even_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZeroToMastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,7 +179,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise/gui.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise/highest_even_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="parameters_and_arguments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nested_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZeroToMastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,7 +201,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/parameters_and_arguments.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/nested_function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="return" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZeroToMastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/return.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.function (1)" />
-        <item itemvalue="Python.parameters_and_arguments" />
-        <item itemvalue="Python.function" />
-        <item itemvalue="Python.check_duplicate_in_list" />
-        <item itemvalue="Python.gui" />
+        <item itemvalue="Python.highest_even_number" />
+        <item itemvalue="Python.arguments_keywordarguments" />
+        <item itemvalue="Python.docstrings" />
+        <item itemvalue="Python.nested_function" />
+        <item itemvalue="Python.return" />
       </list>
     </recent_temporary>
   </component>
