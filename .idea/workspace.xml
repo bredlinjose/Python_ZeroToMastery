@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="007b56d5-66a4-44e3-97e6-85ea2528d703" name="Changes" comment="python basic">
-      <change afterPath="$PROJECT_DIR$/basic/arguments_keywordarguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/docstrings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/highest_even_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise/prime_number_checker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/nested_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/return.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loops&amp;conditions/for_else_loop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/scope.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/scope2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/cat_age_calculate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oops/class_oops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oops/class_oops1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oops/classmethod_staticmethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oops/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operators/walrus_operator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions/function.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,10 @@
     "Python.StringPractice.executor": "Run",
     "Python.arguments_keywordarguments.executor": "Run",
     "Python.assignment_operator.executor": "Run",
+    "Python.cat.executor": "Run",
     "Python.check_duplicate_in_list.executor": "Run",
+    "Python.class_oops.executor": "Run",
+    "Python.class_oops1 (1).executor": "Run",
     "Python.complex.executor": "Run",
     "Python.dictionary.executor": "Run",
     "Python.dictionary_method.executor": "Run",
@@ -82,6 +85,7 @@
     "Python.function.executor": "Run",
     "Python.gui.executor": "Run",
     "Python.highest_even_number.executor": "Run",
+    "Python.init.executor": "Run",
     "Python.list_slicing.executor": "Run",
     "Python.loop1.executor": "Run",
     "Python.loop3.executor": "Run",
@@ -99,12 +103,15 @@
     "Python.print_even_number (1).executor": "Run",
     "Python.range.executor": "Run",
     "Python.return.executor": "Run",
+    "Python.scope.executor": "Run",
+    "Python.scope2.executor": "Run",
     "Python.string_immutable.executor": "Run",
     "Python.string_index.executor": "Run",
     "Python.ternary_operator.executor": "Run",
     "Python.tricky_counter.executor": "Run",
     "Python.truthy_falsy.executor": "Run",
     "Python.tuples.executor": "Run",
+    "Python.walrus_operator.executor": "Run",
     "Python.while_loop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -121,52 +128,8 @@
       <recent name="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\loops&amp;conditions" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.highest_even_number">
-    <configuration name="arguments_keywordarguments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ZeroToMastery" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/arguments_keywordarguments.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="docstrings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ZeroToMastery" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/docstrings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="highest_even_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.cat_age_calculate">
+    <configuration name="cat_age_calculate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZeroToMastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,7 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise/highest_even_number.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\exercise\cat_age_calculate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nested_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_oops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZeroToMastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/nested_function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oops/class_oops.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,7 +173,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="return" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_oops1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ZeroToMastery" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,11 +182,55 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions/return.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oops/class_oops1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="class_oops1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZeroToMastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Lenovo\PycharmProjects\ZeroToMastery\oops\class_oops1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ZeroToMastery" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oops/init.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,18 +241,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.highest_even_number" />
-        <item itemvalue="Python.arguments_keywordarguments" />
-        <item itemvalue="Python.docstrings" />
-        <item itemvalue="Python.nested_function" />
-        <item itemvalue="Python.return" />
+        <item itemvalue="Python.cat_age_calculate" />
+        <item itemvalue="Python.init" />
+        <item itemvalue="Python.class_oops1 (1)" />
+        <item itemvalue="Python.class_oops" />
+        <item itemvalue="Python.class_oops1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
