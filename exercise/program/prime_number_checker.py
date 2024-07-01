@@ -8,7 +8,6 @@ def is_prime(num):
     else:
         return str(num) + ' is not a prime number'
 
-
 print(is_prime(1))
 
 number = 4
@@ -16,5 +15,16 @@ for num in range(2, number):
     if number % num == 0:
         print(number, 'is not a prime number')
         break
-else:
+else:  # for else
     print(number, 'is a prime number')
+
+
+def is_prime1(number):
+    for num in range(2, number):
+        if number % num == 0:
+            return f'{number} is not a prime number'
+
+    return f'{number} is prime number'
+
+
+print(is_prime1(6))

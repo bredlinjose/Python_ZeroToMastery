@@ -18,6 +18,7 @@ player2.run()
 player2.attack = 50
 print(player2.attack)
 
+
 class PlayerChar:
     membership = True  # class object attribute
     def __init__(self, name, age):
@@ -28,5 +29,10 @@ class PlayerChar:
     def shout(self):
         print(f'my name isssss {self.name}')
 
+    def empty_func(self):
+        return self
+
+
 play = PlayerChar('Bredlin', 27)
 play.shout()
+print(play.empty_func())  # <__main__.PlayerChar object at 0x000001F93241A480>
