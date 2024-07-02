@@ -19,5 +19,5 @@ player1.shout()
 player1.name = 'Jose'
 player1.shout = 'BOOOO'
 
-print( player1.shout)  # BOOOO
-print( player1.shout())  # Error 'str' object is not callable
+print(player1.shout)  # BOOOO
+print(player1.shout())  # Error 'str' object is not callable
