@@ -26,8 +26,8 @@ class Archer(User):
 wiz = Wizard('Bredlin', 500)
 arc = Archer('Sara', 20)
 
-def player_attack(char):
-    char.attack()
+def player_attack(cha):
+    cha.attack()
 
 player_attack(wiz)
 player_attack(arc)

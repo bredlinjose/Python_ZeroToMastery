@@ -1,13 +1,7 @@
 import os
 
-locatorsPath = os.path.abspath
+directory = os.path.dirname(os.path.abspath('.'))
+print('Directory', directory)
 
-st = "hypen-of-hell"
-for cha in st:
-    if cha != '-':
-        print(cha, end='')
-
-for cha in st:
-    if cha == '-':
-        print(cha, end='')
-
+loc = os.path.abspath('.')
+print('Loc', loc)
