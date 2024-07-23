@@ -7,4 +7,7 @@ print(it.__next__())  # 5
 print(it.__next__())  # 6
 print(next(it))  # same  # 7
 
+for i in it:
+    print(i)  # 8  # 9
+
 

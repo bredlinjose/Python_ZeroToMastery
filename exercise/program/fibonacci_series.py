@@ -8,6 +8,18 @@ def fibonacci(num):
         print(c, end=' ')
         a = b
         b = c
+    print()
+
+def fib(num):
+    if num == 0:
+        return 0
+    if num == 1 or num == 2:
+        return 1
+    return fib(num - 1) + fib(num - 2)
 
 
-fibonacci(10)
+no = 10
+fibonacci(no)
+
+for i in range(10):
+    print(fib(i), end=' ')

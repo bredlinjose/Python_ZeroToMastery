@@ -13,7 +13,7 @@ print('Hi {}. You are {} years old'.format(name, age))
 print('Hi {1}. You are {0} years old'.format(name, age))
 
 # print('Hi {0}. You are {1} years old'.format(new_name='Deeps',age=22))
-# exception: IndexError: Replacement index 0 out of range for positional args tuple
+# exception_handling: IndexError: Replacement index 0 out of range for positional args tuple
 
 print('Hi {new_name}. You are {age} years old'.format(new_name='Deeps', age=22))
 
