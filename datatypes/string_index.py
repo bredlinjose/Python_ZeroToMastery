@@ -1,5 +1,5 @@
 selfish = 'me me me'
-print(selfish[1])
+print(selfish[1])  # e
 
 selfish = '1234567'  # reinitialization
 print(selfish[1:6])  # from index 1 to 6 excluding 6

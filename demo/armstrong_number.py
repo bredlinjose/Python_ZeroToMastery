@@ -1,5 +1,5 @@
 import math
-def is_armstrong_number(n):
+def is_armstrong_number(num):
     digits = len(str(num))
     sum = 0
     temp = num
