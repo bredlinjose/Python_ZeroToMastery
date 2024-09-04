@@ -103,17 +103,6 @@ def get_column_number(column_header, sheet_name, path=excel_path):
     print(col_index)
 
 def extract_whole_data_as_dicts(filename, sheet_name):
-    """
-    Extracts data from an Excel sheet into a list of dictionaries, where each dictionary represents a row and keys are column headers.
-
-    Args:
-        filename: The name of the Excel file.
-        sheet_name: The name of the worksheet within the file.
-
-    Returns:
-        A list of dictionaries, where each dictionary represents a row.
-    """
-
     try:
         workbook = openpyxl.load_workbook(filename)
         sheet = workbook[sheet_name]
@@ -134,18 +123,6 @@ def extract_whole_data_as_dicts(filename, sheet_name):
         return []
 
 def extract_data_as_dicts(row_header, sheet_name, filename=excel_path):
-    """
-    Extracts the row data from an Excel sheet into a dictionary (column header, data) for the specified row header.
-
-    Args:
-        row_header: The value of the row header from which to start extracting data.
-        sheet_name: The name of the worksheet within the file.
-        filename: The name of the Excel file.
-
-    Returns:
-        A list of dictionaries, where each dictionary represents a row.
-    """
-
     try:
         workbook = openpyxl.load_workbook(filename)
         sheet = workbook[sheet_name]
@@ -175,19 +152,12 @@ def extract_data_as_dicts(row_header, sheet_name, filename=excel_path):
         print(f"Error: {e}")
         return ()
 
-
-# get_row_number("Module_005", "Dummy")
-# get_column_number("Module_005", "Dummy")
-
-# dd = extract_data_as_dicts("100388", "PolicyData")
-# print(dd)
-# print(dd["Region"])
-
-def fetch_data_as_dicts111(sheet_name, filename=excel_path):
+def fetch_data_as_dicts(sheet_name, filename=excel_path):
     try:
         workbook = openpyxl.load_workbook(filename)
         sheet = workbook[sheet_name]
         headers = [cell.value for cell in sheet[1]]
+        row_dict = None
         for row in sheet.iter_rows(min_row=2, values_only=True):
             row_dict = dict(zip(headers, row))
         return row_dict
@@ -196,4 +166,40 @@ def fetch_data_as_dicts111(sheet_name, filename=excel_path):
         return None
 
 
-print(fetch_data_as_dicts111("Sheet"))
+def fetch_row_header_using_key(key, sheet_name, filename= excel_path):
+    workbook = openpyxl.load_workbook(filename)
+    sheet = workbook[sheet_name]
+
+    row_header = []
+    for row in sheet.iter_rows(min_row=2, max_row=sheet.max_row, values_only=True):
+        if row[1] == key:
+            row_header.append(row[0])
+
+    return row_header
+
+
+print(fetch_row_header_using_key("Yes", "Dummy"))
+
+def fetch_modules_with_execution(key, sheet_name, module_col, execution_col, filename=excel_path):
+
+    wb = openpyxl.load_workbook(filename)
+    ws = wb[sheet_name]
+
+    # Find the column indices based on header names
+    module_col_index = None
+    execution_col_index = None
+    for col_index, cell in enumerate(ws[1]):
+        if cell.value == module_col:
+            module_col_index = col_index
+        if cell.value == execution_col:
+            execution_col_index = col_index
+
+    if module_col_index is None or execution_col_index is None:
+        raise ValueError("Header names not found in the spreadsheet.")
+
+    module_names = []
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        if row[execution_col_index] == "Yes":
+            module_names.append(row[module_col_index])
+
+    return module_names
