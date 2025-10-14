@@ -1,7 +1,7 @@
 selfish = 'me me me'
 print(selfish[1])  # e
 
-selfish = '1234567'  # reinitialization
+selfish = '01234567'  # reinitialization
 print(selfish[1:6])  # from index 1 to 6 excluding 6
 # [start : stop : step-over] --> String slicing
 print(selfish[0:4])  # by default step-over is 1
@@ -15,3 +15,4 @@ print(selfish[-2])  # -value will take from the last
 
 print(selfish[::-1])  # reverse
 print(selfish[::-2])
+print(type(selfish[::-2]))

@@ -14,7 +14,7 @@ dictionary1 = {
     'c': "hello"
 }
 print(dictionary1)
-print(dictionary1['a'][2])
+print(dictionary1['a'][2])  # o/p c
 # print(dictionary1['d']) not present so error
 print(dictionary1.get('d'))  # o/p None
 print(dictionary1.get('d', 'bro'))  # if d is present in the dict then it will print that otherwise bro
@@ -31,9 +31,9 @@ my_list = [
         'c': "hii"
     }
 ]
-print(my_list[0])
-print(my_list[0]['a'])
-print(my_list[0]['a'][2])
+print(my_list[0])  # {'a': [1, 2, 3], 'b': True, 'c': 'hello'}
+print(my_list[0]['a'])  # [1, 2, 3]
+print(my_list[0]['a'][2])  # 3
 
 # new_basket = dict('name'= 'Bredlin') # error in key
 new_basket = dict(name='Bredlin', age=26)

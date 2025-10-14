@@ -14,10 +14,13 @@ numbers.remove(6)  # remove the mentioned element, it will not return any value
 print(numbers)
 
 numbers.pop()  # remove the last element
+print(numbers)
 numbers.pop(0)  # remove the element from the mentioned index
+print(numbers)
 
 list1 = numbers.pop(2)  # it will return value
 print(list1)
+print(numbers)
 
 numbers.insert(0, -1)
 print(numbers)
